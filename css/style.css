@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+
+#cat_image {
+    width: 10%;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090934;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #151599;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 50px;
+    text-decoration: none;
+}
+
+.navigation a.active{
+    background-color: #151599;
+}
+
+.content{
+    margin-top: 100px;
+    left: auto;
+    right: auto;
+}
